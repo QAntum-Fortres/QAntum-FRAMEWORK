@@ -1,0 +1,111 @@
+{
+  "name": "qantum",
+  "version": "17.0.0",
+  "description": "QANTUM v16.0 NEXUS SINGULARITY - The Unified AI Mind",
+  "main": "index.js",
+  "bin": {
+    "qantum": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "ts-node src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "jest --coverage",
+    "test:unit": "jest test/qantum.test.js",
+    "test:integration": "jest test/integration.test.js",
+    "test:e2e": "node qantum-v8.js",
+    "test:coverage": "jest --coverage --coverageReporters=lcov --coverageReporters=text",
+    "demo": "node demo-sentinel.js",
+    "demo:nexus": "node nexus-engine/index.js",
+    "demo:quantum": "node quantum-core/index.js",
+    "demo:singularity": "node nexus-singularity/index.js",
+    "demo:omniwatcher": "node nexus-singularity/omniwatcher.js",
+    "demo:prodtest": "node nexus-singularity/production-test-gen.js",
+    "sentinel": "node neuro-sentinel/sentinel-core.js",
+    "sovereign": "node sovereign-core/sovereign-agent.js",
+    "security": "node sovereign-core/security-scanner.js",
+    "server": "node unified-server.js",
+    "agent": "node qantum-v7.js",
+    "scenarios": "node -e \"require('./test-scenarios.js')\"",
+    "validate": "node --check index.js && node --check sovereign-core/sovereign-agent.js",
+    "lint": "eslint *.js --fix",
+    "lint:check": "eslint *.js",
+    "format": "prettier --write \"**/*.{js,ts,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,ts,json,md}\"",
+    "prepare": "node -e \"try { require('husky').install() } catch (e) { if (e.code !== 'MODULE_NOT_FOUND') throw e }\"",
+    "precommit": "npm run lint:check && npm run test",
+    "docker:build": "docker build -t qantum:v15 .",
+    "docker:run": "docker run -it qantum:v15",
+    "clean": "rm -rf output/* visual_diffs/* bug_reports/* coverage/*",
+    "clean:processes": "node -e \"const { execSync } = require('child_process'); const isWin = process.platform === 'win32'; if (isWin) { try { execSync('taskkill /F /IM chrome.exe /T', {stdio:'ignore'}); } catch {} try { execSync('taskkill /F /IM chromedriver.exe /T', {stdio:'ignore'}); } catch {} try { execSync('taskkill /F /IM msedgewebview2.exe /T', {stdio:'ignore'}); } catch {} try { execSync('taskkill /F /IM geckodriver.exe /T', {stdio:'ignore'}); } catch {} } else { try { execSync('pkill -f chrome', {stdio:'ignore'}); } catch {} try { execSync('pkill -f chromedriver', {stdio:'ignore'}); } catch {} } console.log('🧹 Browser processes cleaned!');\""
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "selenium",
+    "playwright",
+    "ai-agent",
+    "testing",
+    "security-scanner",
+    "dast",
+    "sql-injection",
+    "xss",
+    "self-healing",
+    "chaos-engineering",
+    "voice-testing"
+  ],
+  "author": "Dimitar Prodromov <dimitar.prodromov@email.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "types": "index.d.ts",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papica777-eng/QA-Framework.git"
+  },
+  "homepage": "https://github.com/papica777-eng/QA-Framework#readme",
+  "bugs": {
+    "url": "https://github.com/papica777-eng/QA-Framework/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://revolut.me/dimitar7776"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@playwright/test": "^1.57.0",
+    "axios": "^1.13.2",
+    "chai": "^6.2.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4",
+    "ollama": "^0.6.3",
+    "playwright": "^1.57.0",
+    "selenium-webdriver": "^4.39.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "javascript-obfuscator": "^5.1.0",
+    "jest": "^30.2.0",
+    "lint-staged": "^15.5.1",
+    "prettier": "^3.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  }
+}
