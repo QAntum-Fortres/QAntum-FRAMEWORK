@@ -366,8 +366,8 @@ docker-compose up
 
 ## 📞 За въпроси
 
-**Technical:** <dimitar.prodromov@qantum.dev>  
-**Licensing:** <dimitar.prodromov@qantum.dev>  
+**Technical:** <prodromovd@gmail.com>  
+**Licensing:** <prodromovd@gmail.com>  
 **GitHub:** @QAntum-Fortres
 
 ---

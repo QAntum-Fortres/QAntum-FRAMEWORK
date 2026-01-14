@@ -242,7 +242,8 @@ docker-compose up
 - **Priority bug fixes**
 - **Direct email support**
 
-**Contact:** <dimitar.prodromov@qantum.dev>
+**Contact:** <prodromovd@gmail.com>
+**Phone:** +359 89 684 9882 (Bulgaria)
 
 ---
 
@@ -265,7 +266,7 @@ docker-compose up
 
 ## 📞 Get Started
 
-**Evaluation:** Request demo access via <dimitar.prodromov@qantum.dev>  
+**Evaluation:** Request demo access via <prodromovd@gmail.com>  
 **Pricing:** Custom quotes based on team size  
 **Support:** GitHub Issues (public repo) | Email (enterprise)
 

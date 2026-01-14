@@ -22,9 +22,8 @@ The source code is proprietary and not publicly available.
 
 **For licensing inquiries or code access:**
 
-- � Email: <dimitar.prodromov@qantum.dev>
-- 💼 LinkedIn: [Dimitar Prodromov](https://linkedin.com/in/dimitar-prodromov)
-- � GitHub: [@QAntum-Fortres](https://github.com/QAntum-Fortres)
+- � Email: <prodromovd@gmail.com>
+- 💼 LinkedIn: [Dimitar Prodromov](https://www.linkedin.com/in/dimitar-prodromov-1818b3399/)- � GitHub: [@QAntum-Fortres](https://github.com/QAntum-Fortres)
 
 ---
 
@@ -235,9 +234,9 @@ This project and its contents are proprietary and confidential. See [LICENSE](LI
 
 ## 📞 Contact & Support
 
-- 📧 Email: <dimitar.prodromov@qantum.dev>
-- 💼 LinkedIn: [Dimitar Prodromov](https://linkedin.com/in/dimitar-prodromov)
-- 🐙 GitHub: [@QAntum-Fortres](https://github.com/QAntum-Fortres)
+- 📧 Email: <prodromovd@gmail.com>
+- 📞 Phone: +359 89 684 9882 (Bulgaria)
+- 💼 LinkedIn: [Dimitar Prodromov](https://www.linkedin.com/in/dimitar-prodromov-1818b3399/)- 🐙 GitHub: [@QAntum-Fortres](https://github.com/QAntum-Fortres)
 
 ---
 

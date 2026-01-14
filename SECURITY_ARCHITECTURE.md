@@ -515,7 +515,8 @@ killSwitch.arm(); // Ready to shutdown on threat
 
 **For security concerns:**
 
-- 📧 Email: <security@qantum.dev>
+- 📧 Email: <prodromovd@gmail.com>
+- 📞 Phone: +359 89 684 9882 (Bulgaria)
 - 🔐 PGP Key: [Download](https://qantum.dev/pgp)
 - 🐛 Bug Bounty: Up to $10,000
 

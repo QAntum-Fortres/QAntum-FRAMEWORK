@@ -372,7 +372,7 @@ The first self-evolving QA platform with:
 
 ```powershell
 # Generate SSH key if needed
-ssh-keygen -t ed25519 -C "dimitar.prodromov@qantum.dev"
+ssh-keygen -t ed25519 -C "prodromovd@gmail.com"
 # Add to GitHub: Settings → SSH Keys
 ```
 

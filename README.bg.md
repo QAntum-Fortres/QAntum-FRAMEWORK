@@ -19,9 +19,9 @@
 
 **За лицензиране или достъп до кода:**
 
-- 📧 Email: <dimitar.prodromov@qantum.dev>
-- 💼 LinkedIn: [Dimitar Prodromov](https://linkedin.com/in/dimitar-prodromov)
-- 🐙 GitHub: [@QAntum-Fortres](https://github.com/QAntum-Fortres)
+- 📧 Email: <prodromovd@gmail.com>
+- 📞 Phone: +359 89 684 9882 (Bulgaria)
+- 💼 LinkedIn: [Dimitar Prodromov](https://www.linkedin.com/in/dimitar-prodromov-1818b3399/)- 🐙 GitHub: [@QAntum-Fortres](https://github.com/QAntum-Fortres)
 
 ---
 
@@ -144,9 +144,9 @@ npm run security
 
 ## 📞 Контакти
 
-- 📧 Email: <dimitar.prodromov@qantum.dev>
-- 💼 LinkedIn: [Dimitar Prodromov](https://linkedin.com/in/dimitar-prodromov)
-- 🐙 GitHub: [@QAntum-Fortres](https://github.com/QAntum-Fortres)
+- 📧 Email: <prodromovd@gmail.com>
+- 📞 Phone: +359 89 684 9882 (Bulgaria)
+- 💼 LinkedIn: [Dimitar Prodromov](https://www.linkedin.com/in/dimitar-prodromov-1818b3399/)- 🐙 GitHub: [@QAntum-Fortres](https://github.com/QAntum-Fortres)
 
 ---
 

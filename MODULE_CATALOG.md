@@ -422,7 +422,8 @@ From `MEGA_AUDIT_REPORT.json`:
 - Priority updates
 - Module-by-module documentation
 
-**Contact:** <dimitar.prodromov@qantum.dev>
+**Contact:** <prodromovd@gmail.com>
+**Phone:** +359 89 684 9882 (Bulgaria)
 
 ---
 
